@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  gap: 24px;
+}
+
+.header h1 {
+  font-weight: 500;
+  color: #0073aa;
+}
+
+.wrapper_tabs {
+  display: flex;
+  gap: 24px;
+  cursor: pointer;
+}
+
+.wrapper_tabs span {
+  background-color: #f3223b;
+  color: whitesmoke;
+  padding: 4px 8px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.wrapper_menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper_menu_card {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 8px 0;
+  padding: 16px;
+  width: 320px;
+  border-radius: 10px;
+}
+
+.card_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_title p {
+  font-size: 18px;
+}
